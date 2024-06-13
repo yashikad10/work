@@ -87,7 +87,6 @@ const UploadImageButton: React.FC = () => {
       const body = {
         wallet: walletDetails?.wallet,
         data_uri: base64Image,
-        orderId: orderId,
         file_type: imageInfo.type,
         cardinal_address: walletDetails?.cardinal_address,
         ordinal_address: walletDetails?.ordinal_address,

@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bitcoinerlab/secp256k1": "^1.1.1",
     "@cmdcode/crypto-tools": "^2.7.6",
     "@cmdcode/tapscript": "^1.4.6",
     "@mui/icons-material": "^5.15.19",
     "axios": "^1.7.2",
     "bitcoin-wallet-adapter": "^1.6.1",
+    "bitcoinjs-lib": "^6.1.6",
     "mongoose": "^8.4.1",
     "next": "14.2.3",
     "react": "^18",

@@ -11,8 +11,8 @@ const dbConnect = async () => {
 
     await mongoose.connect(mongoURI);
     console.log('MongoDB connected...');
-  } catch (err) {
-    console.error("err.message");
+  } catch (err:any) {
+    console.error(err.message);
     process.exit(1);
   }
 };
